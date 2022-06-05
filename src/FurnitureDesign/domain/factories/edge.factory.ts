@@ -1,8 +1,8 @@
 import { Edge } from "../entities/edge.entity";
-import { EdgeId } from "../value-objects/edge-id.value"
+import { EdgeId } from "../value-objects/edge-id.value";
 
 export class EdgeFactory {
-    public static createFrom(
+    public static createFrom(//2334
         x1:number,
         y1:number,
         z1:number,
