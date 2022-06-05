@@ -1,5 +1,6 @@
 import { Edge } from "./edge.entity";
 import { Texture } from "./texture.entity";
+import { PieceId } from "../value-objects/piece-id.value"
 
 
 
@@ -7,7 +8,8 @@ export class Piece {
     private _faces: Edge[];
     private _textures: Texture[];
     
-    constructor(private _id: number,
+    constructor(
+        private _id: PieceId,
         private _length: Number,
         private _height: Number,
         private _width: Number,
